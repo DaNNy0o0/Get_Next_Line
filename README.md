@@ -42,16 +42,14 @@ gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 -o get_next_line get_next_line.c get
 
 ```
 ./get_next_line <input_file>
-
 ```
 
 ### Pruebas con Valgrind
 
 Para asegurar la correcta gestión de memoria, se puede utilizar Valgrind:
 
-´´´
+```
 valgrind --leak-check=full --track-origins=yes ./get_next_line <input_file>
-
-´´´
+```
 
 
