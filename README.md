@@ -51,5 +51,22 @@ Para asegurar la correcta gestión de memoria, se puede utilizar Valgrind:
 ```
 valgrind --leak-check=full --track-origins=yes ./get_next_line <input_file>
 ```
+# Descripción de Funciones
+
+## get_next_line
+Esta función es el corazón del proyecto. Lee del descriptor de archivo hasta encontrar una nueva línea (\n) o el final del archivo, y devuelve una cadena que contiene una línea del archivo.
+
+## find_new_line
+Busca un carácter de nueva línea en una cadena y devuelve su índice. Si no encuentra una nueva línea, devuelve -1.
+
+## join_read_data
+Une el contenido del buffer leído con los datos almacenados previamente en store, y maneja la memoria de manera apropiada.
+
+## divide_strings
+Divide la cadena almacenada en dos partes: la línea a devolver y el resto que se mantiene en el almacenamiento para la próxima lectura.
+
+## Funciones Utilitarias
+### ft_strlen_gnl, ft_strcpy_gnl, ft_strncpy_gnl, ft_strdup_gnl
+Estas funciones auxiliares ayudan a realizar operaciones comunes de manipulación de cadenas y son diseñadas específicamente para ser utilizadas dentro de get_next_line.
 
 
