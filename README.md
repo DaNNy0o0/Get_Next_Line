@@ -69,4 +69,8 @@ Divide la cadena almacenada en dos partes: la línea a devolver y el resto que s
 ### ft_strlen_gnl, ft_strcpy_gnl, ft_strncpy_gnl, ft_strdup_gnl
 Estas funciones auxiliares ayudan a realizar operaciones comunes de manipulación de cadenas y son diseñadas específicamente para ser utilizadas dentro de get_next_line.
 
+# Requisitos de la Parte Bonus
+
+- Desarrollar get_next_line con una sola variable estática.
+- Manejar múltiples descriptores de archivo simultáneamente.
 
