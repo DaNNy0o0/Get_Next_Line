@@ -25,8 +25,8 @@ char *get_next_line(int fd);
 ### Requisitos
 
 ```
-- `El proyecto debe manejar múltiples descriptores de archivo simultáneamente.`
-- `El proyecto debe ser capaz de manejar cualquier tamaño de BUFFER_SIZE.`
+- El proyecto debe manejar múltiples descriptores de archivo simultáneamente.
+- El proyecto debe ser capaz de manejar cualquier tamaño de BUFFER_SIZE.
 ```
 
 # Compilación y Ejecución
