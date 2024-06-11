@@ -16,13 +16,13 @@ fd: El descriptor de archivo desde el cual leer la línea.;
 ### Funciones Utilitarias
 
 ```
-- `ssize_t find_new_line(char *str)`
-- `char *join_read_data(char *store, char *buffer)`
-- `char *divide_strings(char **store)`
-- `size_t ft_strlen_gnl(char *s)`
-- `void ft_strcpy_gnl(char *dst, char *src)`
-- `void ft_strncpy_gnl(char *dst, char *src, size_t n)`
-- `char *ft_strdup_gnl(char *src)`
+- ssize_t find_new_line(char *str)
+- char *join_read_data(char *store, char *buffer)
+- char *divide_strings(char **store)
+- size_t ft_strlen_gnl(char *s)
+- void ft_strcpy_gnl(char *dst, char *src)
+- void ft_strncpy_gnl(char *dst, char *src, size_t n)
+- char *ft_strdup_gnl(char *src)
 ```
 
 ### Requisitos
