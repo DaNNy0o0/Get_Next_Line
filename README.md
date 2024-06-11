@@ -36,5 +36,22 @@ char *get_next_line(int fd);
 Puedes compilar el proyecto con el siguiente comando:
 
 ```
-gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 -o get_next_line get_next_line_bonus.c get_next_line_utils_bonus.c
+gcc -Wall -Wextra -Werror -D BUFFER_SIZE=42 -o get_next_line get_next_line.c get_next_line_utils.c
 ```
+### Ejecución
+
+```
+./get_next_line <input_file>
+
+```
+
+### Pruebas con Valgrind
+
+Para asegurar la correcta gestión de memoria, se puede utilizar Valgrind:
+
+´´´
+valgrind --leak-check=full --track-origins=yes ./get_next_line <input_file>
+
+´´´
+
+
