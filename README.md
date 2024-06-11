@@ -4,13 +4,10 @@
 
 El objetivo de este proyecto es crear una función en C que lea una línea de un archivo descriptor. Esta es una tarea común que se encuentra en muchos proyectos de programación y es un excelente ejercicio para trabajar con archivos, buffers y manejo de memoria en C.
 
-## Uso
-
 ### Función Principal
 
 ```
 char *get_next_line(int fd);
-fd: El descriptor de archivo desde el cual leer la línea.;
 ```
 
 ### Funciones Utilitarias
